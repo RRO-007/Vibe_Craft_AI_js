@@ -1,4 +1,10 @@
-.DS_Store
-Thumbs.db
-*.log
-.vscode/
+﻿# Exclude watcher, watch, and bundle files globally for all other projects
+*watcher*
+*watch*
+*bundle*
+
+# Exclude dependency and build folders
+node_modules/
+dist/
+build/
+__pycache__/
